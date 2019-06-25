@@ -1,1 +1,5 @@
-{message: @recipe}
+{message: @recipe.id,
+  title: @recipe.title,
+  prep_time: @recipe.prep_time,
+  chef: @recipe.chef
+}
